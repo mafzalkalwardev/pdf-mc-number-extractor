@@ -10,22 +10,11 @@ Documented · MIT licensed · Maintained
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
-[Features](#-features) · [Quick Start](#-quick-start) · [Screenshots](#-screenshots) · [Contributing](CONTRIBUTING.md)
-
 </div>
 
 ---
 
-## 🖼 Screenshots
-
-![Pdf MC Number Extractor screenshot](docs/screenshots/placeholder.svg)
-
-*Replace `docs/screenshots/placeholder.svg` with real app screenshots.*
-
----
-
 ## 🐍 Contribution graph
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/pdf-mc-number-extractor/output/snake-dark.svg" />
@@ -33,28 +22,17 @@ Documented · MIT licensed · Maintained
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/pdf-mc-number-extractor/output/snake.svg" />
 </picture>
 
-
 ---
 
 \# PDF MC Number Extractor
 
-
-
 A Python utility that extracts MC numbers from PDF files automatically.
-
-
 
 The script scans all PDF files in the same folder, extracts MC numbers, removes duplicates, sorts them, and saves the final result into a text file.
 
-
-
 \## Screenshots
 
-![pdf-mc-number-extractor dashboard](docs/screenshots/app.png)
-
 ## Features
-
-
 
 \- Extract MC numbers from PDF files
 
@@ -68,11 +46,7 @@ The script scans all PDF files in the same folder, extracts MC numbers, removes 
 
 \- Processes all PDFs in the folder automatically
 
-
-
 \## Tech Stack
-
-
 
 \- Python
 
@@ -80,11 +54,7 @@ The script scans all PDF files in the same folder, extracts MC numbers, removes 
 
 \- Regex
 
-
-
 \## Project Structure
-
-
 
 ```text
 
@@ -100,11 +70,7 @@ pdf-mc-number-extractor/
 
 ```
 
-
-
 \## Installation
-
-
 
 ```bash
 
@@ -112,17 +78,11 @@ pip install PyPDF2
 
 ```
 
-
-
 \## How to Use
-
-
 
 1\. Put your PDF files in the same folder as the script.
 
 2\. Run:
-
-
 
 ```bash
 
@@ -130,11 +90,7 @@ python extract\_mc\_numbers.py
 
 ```
 
-
-
 3\. Output will be saved in:
-
-
 
 ```text
 
@@ -142,11 +98,7 @@ ids.txt
 
 ```
 
-
-
 \## Example Output
-
-
 
 ```text
 
@@ -158,11 +110,7 @@ ids.txt
 
 ```
 
-
-
 \## Use Cases
-
-
 
 \- Dispatch data processing
 
@@ -174,21 +122,12 @@ ids.txt
 
 \- FMCSA-related document parsing
 
-
-
 \## Security Note
-
-
 
 Do not upload private PDF files publicly.
 
-
-
 \## Author
-
-
 
 Muhammad Afzal Kalwar  
 
 GitHub: @mafzalkalwardev
-
