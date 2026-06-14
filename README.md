@@ -48,7 +48,11 @@ The script scans all PDF files in the same folder, extracts MC numbers, removes 
 
 
 
-\## Features
+\## Screenshots
+
+![pdf-mc-number-extractor dashboard](docs/screenshots/app.png)
+
+## Features
 
 
 
