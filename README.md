@@ -32,6 +32,10 @@ The script scans all PDF files in the same folder, extracts MC numbers, removes 
 
 \## Screenshots
 
+## Screenshots
+
+![Application screenshot](docs/screenshots/app.png)
+
 ## Features
 
 \- Extract MC numbers from PDF files
