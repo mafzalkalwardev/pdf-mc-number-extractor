@@ -17,20 +17,18 @@ Documented · MIT licensed · Maintained
 ## 🐍 Contribution graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/pdf-mc-number-extractor/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/pdf-mc-number-extractor/output/snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/pdf-mc-number-extractor/output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/pdf-mc-number-extractor/gh-pages/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/pdf-mc-number-extractor/gh-pages/output/snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/pdf-mc-number-extractor/gh-pages/output/snake.svg" />
 </picture>
 
 ---
 
-\# PDF MC Number Extractor
 
 A Python utility that extracts MC numbers from PDF files automatically.
 
 The script scans all PDF files in the same folder, extracts MC numbers, removes duplicates, sorts them, and saves the final result into a text file.
 
-\## Screenshots
 
 ## Screenshots
 
@@ -38,101 +36,76 @@ The script scans all PDF files in the same folder, extracts MC numbers, removes 
 
 ## Features
 
-\- Extract MC numbers from PDF files
+- Extract MC numbers from PDF files
+- Supports patterns like `MC-123456`
+- Removes duplicate MC numbers
+- Sorts MC numbers numerically
+- Saves output to `ids.txt`
+- Processes all PDFs in the folder automatically
 
-\- Supports patterns like `MC-123456`
+## Tech Stack
 
-\- Removes duplicate MC numbers
+- Python
+- PyPDF2
+- Regex
 
-\- Sorts MC numbers numerically
-
-\- Saves output to `ids.txt`
-
-\- Processes all PDFs in the folder automatically
-
-\## Tech Stack
-
-\- Python
-
-\- PyPDF2
-
-\- Regex
-
-\## Project Structure
+## Project Structure
 
 ```text
-
 pdf-mc-number-extractor/
 
 │
-
-├── extract\_mc\_numbers.py
-
+├── extract_mc_numbers.py
 ├── README.md
-
 └── .gitignore
-
 ```
 
-\## Installation
+## Installation
 
 ```bash
-
 pip install PyPDF2
-
 ```
 
-\## How to Use
+## How to Use
 
-1\. Put your PDF files in the same folder as the script.
-
-2\. Run:
+1. Put your PDF files in the same folder as the script.
+2. Run:
 
 ```bash
-
-python extract\_mc\_numbers.py
-
+python extract_mc_numbers.py
 ```
 
-3\. Output will be saved in:
+3. Output will be saved in:
 
 ```text
-
 ids.txt
-
 ```
 
-\## Example Output
+## Example Output
 
 ```text
-
 123456
 
 789012
 
 456789
-
 ```
 
-\## Use Cases
+## Use Cases
 
-\- Dispatch data processing
+- Dispatch data processing
+- Carrier MC number extraction
+- PDF data cleaning
+- Lead processing
+- FMCSA-related document parsing
 
-\- Carrier MC number extraction
-
-\- PDF data cleaning
-
-\- Lead processing
-
-\- FMCSA-related document parsing
-
-\## Security Note
+## Security Note
 
 Do not upload private PDF files publicly.
 
-\## Author
+## Author
 
-Muhammad Afzal Kalwar  
+Muhammad Afzal Kalwar
 
 GitHub: @mafzalkalwardev
 
